@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>邓正文 | 个人网站</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">邓正文 <span class="logo-en">Aria</span></h1>
+        <nav>
+          <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#projects">项目</a></li>
+            <li><a href="#contact">联系我</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      id="home"
+      class="hero"
+      style="position: relative; overflow: hidden"
+    >
+      <div class="container">
+        <div
+          class="hero-content"
+          style="background: none; padding: 0; box-shadow: none; border: none"
+        >
+          <h1>
+            邓正文 <span class="subtitle">Aria</span><br />
+            <span
+              class="highlight"
+              >在复杂世界里，安静发光。</span
+            >
+            
+          </h1>
+          <p>欢迎来到我的个人网站！探索我的作品与创意世界</p>
+          <a href="#contact" class="btn">联系我</a>
+        </div>
+      <div class="aurora-effect" style="
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%; /* 限制高度为页面底部区域 */
+  opacity: 0.7;
+  pointer-events: none;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 105, 180, 0.3),
+    rgba(0, 191, 255, 0.3),
+    rgba(123, 104, 238, 0.3)
+  );
+  filter: blur(50px);
+  animation: aurora-flow 15s linear infinite, aurora-pulse 10s ease-in-out infinite alternate;
+"></div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">关于我</h2>
+
+        <div class="about-content">
+          <div class="about-img-wrapper">
+            <div class="about-img">
+              <img src="me.png" alt="邓正文的照片" />
+            </div>
+          </div>
+
+          <div class="about-info">
+            <div class="about-header">
+              <div class="education">
+                <p class="school">
+                  <i class="fas fa-graduation-cap"></i> 华南理工大学 ·
+                  产品设计专业 · 2026届
+                </p>
+              </div>
+            </div>
+
+            <p class="about-summary">
+              我是<strong>邓正文</strong>（Aria），热衷于用设计解决问题，创造美好体验。我致力于将我的创意和技能结合起来，打造既美观又实用的设计作品。无论是产品设计还是数字体验，我都期待着为用户带来愉悦而高效的使用体验。
+            </p>
+
+            <ul class="personality-traits">
+              <li>
+                <i class="fas fa-user-circle"></i>
+                <strong>人间解忧者</strong> ENFJ性格，天生的倾听者与协调者
+              </li>
+              <li>
+                <i class="fas fa-star"></i>
+                <strong>活力永动机</strong> 活力的狮子座，热情四溢
+              </li>
+              <li>
+                <i class="fas fa-dumbbell"></i>
+                <strong>健身房里的思考者</strong> 锻炼身体的同时酝酿创意
+              </li>
+              <li>
+                <i class="fas fa-tasks"></i>
+                <strong>计划与执行魔法师</strong> 把混乱变成秩序的能力
+              </li>
+              <li>
+                <i class="fas fa-users"></i>
+                <strong>团队黏合剂</strong> 连接不同想法，创造共同愿景
+              </li>
+              <li>
+                <i class="fas fa-heart"></i>
+                <strong>无情的共情机器</strong>
+                能读懂别人的情绪，提供恰到好处的理解
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">我的技能</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <h3>前端开发</h3>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>产品设计</h3>
+            <p>Rhino, Keyshot, sketch</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-paint-brush"></i>
+            <h3>UI/UX设计</h3>
+            <p>Figma, Adobe illustrator, Photoshop</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>用户与市场研究</h3>
+            <p>竞品分析, 用户画像, 数据分析</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">我的项目</h2>
+        <div
+          class="projects-grid"
+          style="
+            display: grid;
+            grid-template-columns: repeat(3, minmax(400px, 1fr));
+            gap: 50px;
+            justify-content: center;
+          "
+        >
+          <div class="project-card" style="transform: scale(1.1); width: 400px">
+            <div class="project-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="project-info">
+              <h3 style="font-size: 1.5em">B端办公小程序设计</h3>
+              <p style="font-size: 1.1em">使用Figma设计的B端办公小程序</p>
+              <div class="project-links">
+                <a
+                  href="b-office-app.html"
+                  class="btn"
+                  style="padding: 12px 24px; font-size: 1.1em"
+                  >查看项目详情</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card" style="transform: scale(1.1); width: 400px">
+            <div class="project-icon">
+              <i class="fas fa-drafting-compass"></i>
+            </div>
+            <div class="project-info">
+              <h3 style="font-size: 1.5em">产品设计部分</h3>
+              <p style="font-size: 1.1em">基于Rhino和Keyshot进行产品设计</p>
+              <div class="project-links">
+                <a
+                  href="product-design.html"
+                  class="btn"
+                  style="padding: 12px 24px; font-size: 1.1em"
+                  >查看项目集合</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card" style="transform: scale(1.1); width: 400px">
+            <div class="project-icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <div class="project-info">
+              <h3 style="font-size: 1.5em">信息可视化</h3>
+              <p style="font-size: 1.1em">用figma设计网页并用html+css+js实现</p>
+              <div class="project-links">
+                <a
+                  href="https://ariadai.github.io/ana-ultra.github.io/"
+                  class="btn"
+                  style="padding: 12px 24px; font-size: 1.1em"
+                  >查看项目</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">联系我</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>473507055@qq.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>+86 13380607843</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>广州市, 中国</p>
+            </div>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="您的姓名" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="您的邮箱" required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="主题" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="您的留言" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">发送留言</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 邓正文 (Aria). 保留所有权利。</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+    // 等待EmailJS完全加载
+    window.onload = function() {
+        emailjs.init("jQeHAAKRed1Lknjqq");
+    };
+
+    async function sendEmail(e) {
+        e.preventDefault();
+        
+        // 显示加载状态
+        const submitButton = document.querySelector('#contactForm button[type="submit"]');
+        const originalText = submitButton.textContent;
+        submitButton.textContent = '发送中...';
+        submitButton.disabled = true;
+
+        try {
+            // 获取表单数据
+            const templateParams = {
+                from_name: document.getElementById('name').value,
+                from_email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value,
+                to_name: '邓正文',
+            };
+
+            // 发送邮件
+            const response = await emailjs.send('service_v2ffnvs', 'template_g8jg3xv', templateParams);
+            
+            if (response.status === 200) {
+                alert('留言已发送成功！');
+                document.getElementById('contactForm').reset();
+            } else {
+                throw new Error('发送失败');
+            }
+        } catch (error) {
+            console.error('发送失败:', error);
+            alert('发送失败，请稍后重试。');
+        }
+
+        // 确保按钮状态恢复
+        setTimeout(() => {
+            submitButton.textContent = originalText;
+            submitButton.disabled = false;
+        }, 100);
+    }
+
+    // 添加表单提交事件监听
+    document.getElementById('contactForm').addEventListener('submit', sendEmail);
+    </script>
+
+    <style>
+      @keyframes aurora-flow {
+        0% {
+          background-position: 0% 100%;
+        }
+        50% {
+          background-position: 50% 0%;
+        }
+        100% {
+          background-position: 100% 100%;
+        }
+      }
+
+      @keyframes aurora-pulse {
+        0% {
+          opacity: 0.6;
+        }
+        50% {
+          opacity: 0.8;
+        }
+        100% {
+          opacity: 0.6;
+        }
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+      }
+    </style>
+  </body>
+</html>
+   

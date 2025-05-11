@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产品设计作品集 | 邓正文</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/product-design.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">邓正文 <span class="logo-en">Aria</span></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html#about">关于我</a></li>
+            <li><a href="index.html#skills">技能</a></li>
+            <li><a href="index.html#projects">项目</a></li>
+            <li><a href="index.html#contact">联系我</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="portfolio-hero">
+      <div class="aurora-container">
+        <div class="aurora-one"></div>
+        <div class="aurora-two"></div>
+        <div class="aurora-three"></div>
+        <div class="aurora-four"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="static-title">产品设计</h1>
+          <div class="hero-subtitle">
+            <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+          </div>
+          <p class="hero-description">探索我的设计思维与创意，从概念到最终成果</p>
+        </div>
+      </div>
+      <div class="scroll-arrow">
+        <a href="#portfolio-intro">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="portfolio-intro" id="portfolio-intro">
+      <div class="container">
+        <div class="intro-text">
+          <h2>设计理念</h2>
+          <p>
+            我相信优秀的产品设计应该融合功能与美学，为用户带来愉悦的使用体验。我的设计过程始于深入理解用户需求，通过反复迭代和优化，最终呈现既实用又美观的产品解决方案。
+          </p>
+          <p>以下是我的部分代表作品，展示了我在不同领域的设计探索与实践。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-gallery" id="portfolio-gallery">
+      <!-- 项目1：智能台球手柄 -->
+      <div class="project-item" id="project-0">
+        <div class="media-container">
+          <div class="carousel-container">
+            <div class="slide active" style="background-image: url('./pooldream1.png')"></div>
+            <div class="slide" style="background-image: url('./pooldream2.png')"></div>
+            <div class="slide" style="background-image: url('./pooldream3.png')"></div>
+          </div>
+          <div class="video-container">
+            <video autoplay muted loop playsinline>
+              <source src="./pdvideo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-controls">
+              <button class="play-pause-btn">
+                <i class="fas fa-pause"></i>
+              </button>
+              <input type="range" class="progress-bar" value="0" min="0" max="100" step="0.1" />
+              <span class="time-display">00:00</span>
+              <div class="volume-control">
+                <button class="volume-btn">
+                  <i class="fas fa-volume-up"></i>
+                </button>
+                <input type="range" class="volume-slider" min="0" max="100" value="50" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-dots"></div>
+        </div>
+        <button class="toggle-info-btn">
+          <i class="fas fa-info-circle"></i>
+          <span>查看详情</span>
+        </button>
+        <div class="project-info">
+          <div class="info-content">
+            <h3>智能台球手柄设计</h3>
+            <p class="project-category">运动产品设计 | 2023</p>
+            <p class="project-description">
+              这是一款服务于台球玩家的虚拟台球手柄。它便于携带，是一款仿真实台球杆的智能手柄。前端为虚拟前端，搭载伪触觉反馈，打造真实的桌球体验。配合PoolDreamVR眼镜可以实现随时随地的台球比赛和练习。这款手柄可以实时检测姿势，并传输到眼镜上提示玩家。同时记录每一杆的后手情况以及发力程度，实时分析。
+            </p>
+            <ul class="project-features">
+              <li><i class="fas fa-check-circle"></i> 便携式虚拟前端，不拘场地</li>
+              <li>
+                <i class="fas fa-check-circle"></i> 伪触觉反馈
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> 实时监测姿势，击球数据记录与分析
+              </li>
+              <li><i class="fas fa-check-circle"></i> 可与云端好友同玩</li>
+            </ul>
+            <div class="project-tools">
+              <span>使用工具:</span>
+              <span class="tool">Rhino</span>
+              <span class="tool">Keyshot</span>
+              <span class="tool">Adobe Illustrator</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 项目2：便携式智能调制杯 -->
+      <div class="project-item">
+        <div class="media-container">
+          <div class="carousel-container">
+            <div class="slide active" style="background-image: url('./glass.png')"></div>
+            <div class="slide" style="background-image: url('./carglass.png')"></div>
+          </div>
+          <div class="carousel-dots"></div>
+        </div>
+        <button class="toggle-info-btn">
+          <i class="fas fa-info-circle"></i>
+          <span>查看详情</span>
+        </button>
+        <div class="project-info">
+          <div class="info-content">
+            <h3>便携式智能调制杯</h3>
+            <p class="project-category">日用产品设计 | 2022</p>
+            <p class="project-description">
+              针对城市通勤人群设计的随身调制杯，满足了随时调制速溶/DIY饮品的需求。以沙漏为设计灵感，配备充电基座，可在家中/办公室使用，放入基座自动旋转调配。特殊的双层保温设计确保饮品保持温度。
+            </p>
+            <ul class="project-features">
+              <li><i class="fas fa-check-circle"></i> 小巧轻便，便于携带</li>
+              <li><i class="fas fa-check-circle"></i> 多场景使用</li>
+              <li><i class="fas fa-check-circle"></i> 双层保温结构</li>
+              <li>
+                <i class="fas fa-check-circle"></i> 分体式结构，便于放入材料
+              </li>
+            </ul>
+            <div class="project-tools">
+              <span>使用工具:</span>
+              <span class="tool">Rhino</span>
+              <span class="tool">Keyshot</span>
+              <span class="tool">Photoshop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 项目3：海豚音响 -->
+      <div class="project-item">
+        <div class="media-container">
+          <div class="carousel-container">
+            <div class="slide active" style="background-image: url('D1.28.png')"></div>
+            <div class="slide" style="background-image: url('D2.33.jpg')"></div>
+            
+          </div>
+          <div class="carousel-dots"></div>
+        </div>
+        <button class="toggle-info-btn">
+          <i class="fas fa-info-circle"></i>
+          <span>查看详情</span>
+        </button>
+        <div class="project-info">
+          <div class="info-content">
+            <h3>Melphine智能声学产品</h3>
+            <p class="project-category">家电设计 | 2022</p>
+            <p class="project-description">
+              豚音是一款智能蓝牙音响。以海豚为外形。英文名“Mel”来自“Melody”(旋律)，而“phine”取自“Dolphine”(海豚)。以仿生海豚流体美学重塑声学载体，穹顶采用渐变半透玻璃锻造光域共振腔，鳍翼搭载多维空间触控技术：横向轻拨切换音轨，纵向滑动精控声场，通过生物形态与尖端材质的交响，实现艺术装置级听觉体验。
+            </p>
+            <ul class="project-features">
+              <li><i class="fas fa-check-circle"></i> 仿生海豚造型</li>
+              <li><i class="fas fa-check-circle"></i> 智能控制键</li>
+              <li><i class="fas fa-check-circle"></i> 半透明玻璃材质</li>
+              <li><i class="fas fa-check-circle"></i> 仿生鱼鳍交互控件</li>
+            </ul>
+            <div class="project-tools">
+              <span>使用工具:</span>
+              <span class="tool">Rhino</span>
+              <span class="tool">Keyshot</span>
+              <span class="tool">Photoshop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 设计流程展示部分 -->
+    <section class="design-process-showcase">
+      <div class="container">
+        <div class="process-showcase-content">
+          <h2 class="section-title">设计流程展示</h2>
+          <div class="fancy-subtitle-container">
+            <p class="fancy-subtitle">探索我们的设计方法论和创作过程</p>
+          </div>
+          
+          <div class="process-showcase-grid">
+            <!-- 用户研究 -->
+            <div class="process-showcase-item">
+              <h3><i class="fas fa-users"></i>用户研究</h3>
+              <p>通过深入的用户访谈、问卷调查和数据分析，深入了解目标用户的需求、痛点和行为模式。这为后续的设计决策提供了坚实的基础。</p>
+              <div class="process-tools">
+                <span class="tool">用户访谈</span>
+                <span class="tool">问卷调查</span>
+                <span class="tool">数据分析</span>
+                <span class="tool">用户画像</span>
+              </div>
+            </div>
+            
+            <!-- 概念设计 -->
+            <div class="process-showcase-item">
+              <h3><i class="fas fa-lightbulb"></i>概念设计</h3>
+              <p>基于用户研究的结果，进行头脑风暴和创意发散，探索多种可能的设计方案。通过快速原型和迭代，不断优化设计概念。</p>
+              <div class="process-tools">
+                <span class="tool">头脑风暴</span>
+                <span class="tool">草图设计</span>
+                <span class="tool">原型制作</span>
+                <span class="tool">设计迭代</span>
+              </div>
+            </div>
+            
+            <!-- 概念落地 -->
+            <div class="process-showcase-item">
+              <h3><i class="fas fa-mouse-pointer"></i>概念落地</h3>
+              <p>运用Rhino参数化建模与Keyshot实时渲染引擎，将设计概念转化为三维数字模型，通过材质光影多维度调试输出高精度渲染图，为设计评审与生产制造提供可视化决策依据。</p>
+              <div class="process-tools">
+                <span class="tool">建立模型</span>
+                <span class="tool">搭建环境</span>
+                <span class="tool">渲染</span>
+                <span class="tool">后期处理</span>
+              </div>
+            </div>
+            
+            <!-- 视觉设计 -->
+            <div class="process-showcase-item">
+              <h3><i class="fas fa-palette"></i>视觉设计</h3>
+              <p>我们注重每一个视觉细节，从色彩搭配到排版布局，从图标设计到动效制作，力求打造独特而专业的视觉体验。</p>
+              <div class="process-tools">
+                <span class="tool">色彩系统</span>
+                <span class="tool">排版设计</span>
+                <span class="tool">图标设计</span>
+                <span class="tool">方案呈现</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系我部分 -->
+    <section class="contact-cta">
+      <div class="container">
+        <h2>对我的作品感兴趣？</h2>
+        <p>如果您对我的设计理念和作品集感兴趣，或者有任何项目合作的想法，欢迎随时与我联系。我期待能与您一起创造更多精彩的设计作品。</p>
+        <a href="index.html#contact" class="btn btn-primary">联系我</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 邓正文 (Aria). 保留所有权利。</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/product-design.js"></script>
+  </body>
+</html>
